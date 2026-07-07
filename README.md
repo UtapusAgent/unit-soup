@@ -16,10 +16,10 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Length conversion
-- Weight conversion
-- Temperature conversion
-- Saved calculations
+- Conversion calculator
+- Saved conversion history
+- Result cards
+- SQLite persistence
 
 ## Use Cases
 
