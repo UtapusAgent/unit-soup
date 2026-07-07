@@ -1,6 +1,6 @@
 # Unit Converter
 
-Convert common units badly but usefully.
+Save conversion calculations for common units.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
 - Length conversion
 - Weight conversion
 - Temperature conversion
-- Swap units
+- Saved calculations
 
 ## Use Cases
 
-- Homework helper
-- Travel conversion
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
